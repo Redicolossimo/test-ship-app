@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Warships</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Warships калькулятор</h1>
+    <div class="container">
+      <div class="main">
+        <form class="main_top">
+          <div class="search"></div>
+          <div class="filter">
+            <div class="select nation"></div>
+            <div class="select type"></div>
+            <div class="select level"></div>
+          </div>
+        </form>
+        <div class="main_bottom">
+          <div  id="ships" class="ships"></div>
+        </div>
+    </div>
+      <div class="aside">
+        <label class="link_label" for="link">
+          <p>Ссылка чтобы поделиться с другом</p>
+        </label>
+        <p id="link" class="link"></p>>
+        <div class="aside_header">
+          Выбранные корабли:
+        </div>
+        <div class="aside_list"></div>
+        <div class="aside_total">
+          Сумма уровней:
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
