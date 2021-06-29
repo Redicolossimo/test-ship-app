@@ -16,7 +16,7 @@ let link_block = document.querySelector('.link');
 let ships_for_tick = null;
 let ships_for_link = null;
 total_block.innerHTML = `Сумма уровней : ${ship_count}`
-let host = 'localhost:63342/test-ship-app/?flot='
+let host = 'https://redicolossimo.github.io/test-ship-app/?flot='
 
 // Заполняем словарь
 /*Словарь*/{
